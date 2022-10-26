@@ -7,13 +7,13 @@ The equilibrium index of an array is an index such that the sum of elements at l
  how to approach this problem is to use two sums one starting from the beginning and the other from the end
  {-6, 1, 5, 2, -4, 3, 3}
  {1, 2, 3}
- rightsum =[3,6,2,4,9,10,4]
- leftsum = [-6,-5,0,2,-2,1,4]
+ rightSum =[3,6,2,4,9,10,4]
+ leftSum = [-6,-5,0,2,-2,1,4]
 """
 # def equilibriumIndex(nums):
 #     i,j = 0, len(nums)-1
-#     leftsum = 0
-#     rightsum = 0
+#     leftSum = 0
+#     rightSum = 0
 #     while i < j :
 #         leftsum += nums[i]
 #         rightsum +=nums[j]
@@ -42,13 +42,13 @@ using prefix_sum we can implement the problem in the following way
 
 def equilbriumPrefix(nums):
     n = len(nums) - 1
-    rightsum = [nums[n]]
-    leftsum = [nums[0]]
+    rightSum = [nums[n]]
+    leftSum = [nums[0]]
     for i in range(1, n+1):
-        rightsum.append(rightsum[i - 1] + nums[n - i])
-        leftsum.append(leftsum[i - 1] + nums[i])
+        rightSum.append(rightSum[i - 1] + nums[n - i])
+        leftSum.append(leftSum[i - 1] + nums[i])
     for i in range(n+1):
-        if leftsum[i] == rightsum[n - i]:
+        if leftSum[i] == rightSum[n - i]:
             return i
     return -1
 print(equilbriumPrefix([1,2,3]))

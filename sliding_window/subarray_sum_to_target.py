@@ -23,4 +23,4 @@ def findSubList(nums, target):
     return []
 
 
-print(findSubList([2, 6, 0, 12, 7, 8], 0))
+print(findSubList([2, 6, 0, 12, 7, 8], 9))
