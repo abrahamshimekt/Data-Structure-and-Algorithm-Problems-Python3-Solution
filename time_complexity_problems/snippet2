@@ -1,0 +1,8 @@
+"""def fun(n):
+    if (n < 5):
+        print("GeeksforGeeks", end ="")
+    else:
+        for i in range(n):
+            print(i, end= " ")
+    This algorithm has best cases and worst cases: the best case is O(1) and worst case O(N)
+"""

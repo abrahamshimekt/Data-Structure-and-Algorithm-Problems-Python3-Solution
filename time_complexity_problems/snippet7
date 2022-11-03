@@ -1,0 +1,11 @@
+"""
+void fun(int n)
+{
+    for (int i = 1; i <= n; i++)
+        for (int j = 1; j <= n; j = j + i)
+            cout << "GeeksforGeeks";
+}
+Time complexity of 1st for loop = O(n). 2nd loop executes n/i times for each value of i.
+Its time complexity is O(∑ni=1 n/i) ⇒ O(logn).
+Hence, time complexity of function = O(nlogn).
+"""

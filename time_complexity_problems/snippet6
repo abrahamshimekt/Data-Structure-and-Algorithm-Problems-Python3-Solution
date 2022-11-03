@@ -1,0 +1,22 @@
+"""
+void fun(int n)
+{
+    for (int i = 0; i < n / 2; i++)
+        for (int j = 1; j + n / 2 <= n; j++)
+            for (int k = 1; k <= n; k = k * 2)
+                cout << "GeeksforGeeks";
+}
+j = 1
+j = 2
+j = k so k + n/2 = n
+k = n/2 thus the second loop is O(N)
+i = 0
+i =1
+i= k s k = n/2 thus the first loop is O(N)
+k = 1
+k = 2
+k = 2*2
+k = 2 * 2*2 => 2^k = n => k = logN
+The total time complexity is O(N^2*logN)
+
+"""

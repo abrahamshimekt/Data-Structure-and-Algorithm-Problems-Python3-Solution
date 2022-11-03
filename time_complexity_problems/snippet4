@@ -1,0 +1,11 @@
+"""void fun(int n)
+{
+  for(int i=0;i*i<n;i++)
+    cout<<"GeeksforGeeks";
+}
+i = 0, 0
+i = 1 ,1*1
+i = 2, 2*2
+i = k, k*k = n
+k = (n)^1/2 this Algorithm has O(N^1/2)
+"""

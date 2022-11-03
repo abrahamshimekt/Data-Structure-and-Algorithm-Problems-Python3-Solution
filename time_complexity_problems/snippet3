@@ -1,0 +1,10 @@
+"""def fun(a, b):
+
+    while (a != b):
+        if (a > b):
+            a = a - b
+        else:
+            b = b - a
+
+    best case O(1) and worst case O(max(a,b))
+            """

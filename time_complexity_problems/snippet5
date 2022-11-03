@@ -1,0 +1,13 @@
+"""void fun(int n, int x)
+{
+    for (int i = 1; i < n; i = i * x) //or for(int i = n; i >=1; i = i / x)
+        cout << "GeeksforGeeks";
+}
+i = 1
+i = x
+i = x*x
+i = x*x*x
+x^k = n
+k = logn base x
+Thus this Algorithm has O(log(N) base X)
+"""
