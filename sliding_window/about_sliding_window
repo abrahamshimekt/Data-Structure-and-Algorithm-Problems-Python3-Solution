@@ -1,0 +1,6 @@
+Slinding window technique helps us to reduce the time complexity of an algorithm from O(N^2) or higher time
+complexity to O(N)
+There are two types of sliding window techniques:
+1. Fixed Size where the window size is fixed throughout the iteration of the array
+2. Resizeable window size that is like a caterpillar moving one part of the body once and moving the other
+part next time

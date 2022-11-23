@@ -1,0 +1,5 @@
+Two pointers are the way of reducing the time complexity of an algorithm from O(N^2) and bigger to O(N)
+by applying two or more pointing variables.
+There are two types of two pointers :
+1. equidirectional (all pointers start from the same direction)
+2. opposite directional (start from opposite ends)

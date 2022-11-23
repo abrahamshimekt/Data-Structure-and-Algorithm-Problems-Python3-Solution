@@ -1,0 +1,13 @@
+int count = 0;
+        for (int i = N; i > 0; i /= 2) {
+            for (int j = 0; j < i; j++) {
+                count += 1;
+            }
+        }
+    i           j
+    N           0 + 1 + 1... + => N
+    N/2         0 + 1 + 1 ...+ => N/2
+    N/2^k       N + N/2 + N/2^2 ... + N/2^k = N(1 + 1/2 + 1/4...+ 1/2^k) => 2N
+    k = logN
+    the total time complexity is O(NlogN)
+

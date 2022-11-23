@@ -8,6 +8,11 @@ how merge sort works
 6. compare the ith and jth values of the left and right arrays and assign the less element on arr[k]
 7. after the comparing of the left and right elements there will be elements left on the left and right array
 and add these elements to the array first the left and second the right
+[4, 2, 3, 6]
+[4,2] [3,6]
+[4],[2] [3] [6]
+[2,4] [3,6]
+[2,3,4,6]
 """
 
 

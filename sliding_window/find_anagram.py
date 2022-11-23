@@ -1,6 +1,6 @@
 """
-The problem is to find all substrings that are anagram to the target string and
- then we will append the anagram and its strating position to a list
+The problem is to find all substrings that are anagram to the target string, and
+ then we will append the anagram and its starting position to a list
  then we iterate to the list and print the anagram and the position
  'XYYZXZ' "XYZ"
 """
